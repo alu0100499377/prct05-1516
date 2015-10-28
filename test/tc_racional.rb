@@ -1,4 +1,4 @@
-require 'lib/racional'
+require '../lib/racional'
 require 'test/unit'
 
 class TestFraccion < Test::Unit::TestCase
