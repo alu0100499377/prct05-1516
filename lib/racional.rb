@@ -19,7 +19,7 @@ class Fraccion
 	end
 
 	#SUMA
-	def suma(n, d)
+	def +(n, d)
 		aux_d = @denom*d
 		aux_n1 = (aux_d/@denom)*@num
 		aux_n2 = (aux_d/d)*n
@@ -35,7 +35,7 @@ class Fraccion
 	end
 
 	#RESTA
-	def resta(n, d)
+	def -(n, d)
 		aux_d = @denom*d
 		aux_n1 = (aux_d/@denom)*@num
 		aux_n2 = (aux_d/d)*n
@@ -63,7 +63,7 @@ class Fraccion
 	end
 
 	#DIVICION
-	def div(n, d)
+	def /(n, d)
 		#divido y reduzco el resultado a la minima expresion
 		aux_d = n*@denom
 		aux_n = d*@num
